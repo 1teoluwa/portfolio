@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::before{
+    display: block;
+    content:'';
+    height: 60px;
+}
+
+@media (min-width: 568px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .portfolio {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+}
+/*@media screen and (max-width: 845px) {
+    .body {
+        width: 100vw;
+        height: auto;
+        margin: auto;
+    }   
+}
+768*/
